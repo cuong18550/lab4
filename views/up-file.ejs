@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Up load file</title>
+</head>
+<body>
+
+    <h2>Up load file</h2>
+
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="text" placeholder="Tiêu đề" name="title">
+        <input type="text" placeholder="Nội dung" name="body">
+        <input type="file" name="file">
+        <button type="submit">OK</button>
+    </form>
+</body>
+</html>
